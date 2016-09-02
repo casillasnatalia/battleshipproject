@@ -38,7 +38,7 @@ for (i = 0; i < cols; i++) {
 
 		// THIS IS WHERE YOU WILL ADD CODE FOR PART 1 TO ADD TEXT TO EACH SQUARE
 
-		square.textContent = (i + 1) + myArray[J];
+		square.textContent =  letterArray[J] + (i + 1);
 
 myArray[1]
 
