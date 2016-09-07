@@ -40,7 +40,6 @@ for (i = 0; i < cols; i++) {
 
 		square.textContent = letterArray[j] + (i + 1);
 
-myArray[1]
 
 		// set each grid square's coordinates: multiples of the current row or column number
 		var topPosition = j * squareSize;
@@ -69,5 +68,10 @@ var gameBoard = [
 function fireTorpedo() {
 
 	// Your game logic will go here!
+
+	var UserInput = $("#myInputBox").val();
+  var rowLetter = UserInput.substring(0,1)
+	var column = userInput.substring(1,2)
+	var row = letterConversion [rowLetter]
 
 }
