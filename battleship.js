@@ -69,8 +69,8 @@ function fireTorpedo() {
 
 	// Your game logic will go here!
 
-	var UserInput = $("#myInputBox").val();
-  var rowLetter = UserInput.substring(0,1)
+	var userInput = $("#guessInput").val();
+  var rowLetter = userInput.substring(0,1)
 	var column = userInput.substring(1,2)
 	var row = letterConversion[rowLetter]
   var battleshipGuess = gameBoard[row][column]
