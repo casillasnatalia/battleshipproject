@@ -71,7 +71,7 @@ function fireTorpedo() {
 
 	var userInput = $("#guessInput").val();
   var rowLetter = userInput.substring(0,1)
-	var column = userInput.substring(1,2) - 1
+	var column = userInput.substring(1,3) - 1
 	var row = letterConversion[rowLetter]
   var battleshipGuess = gameBoard[row][column]
 	var divString = "#s" + row + column;
